@@ -2,17 +2,17 @@ fn main() {
     let eight_bit_signed: i8 = -128;
     println!("int8 signed: {}", eight_bit_signed);
     let eight_bit_unsigned: u8 = 255;
-    println!("int8 unsigned: {}", eight_bit_unsigned);
+    println!("int8 unsigned (octal): {:o}", eight_bit_unsigned);
 
     let sixteen_bit_signed: i16 = -32_768;
     println!("int16 signed: {}", sixteen_bit_signed);
     let sixteen_bit_unsigned: u16 = 65_535;
-    println!("int16 unsigned: {}", sixteen_bit_unsigned);
+    println!("int16 unsigned (binary): {:b}", sixteen_bit_unsigned);
     
     let thirty_two_bit_signed: i32 = -2_147_483_648;
     println!("int32 signed: {}", thirty_two_bit_signed);
     let thirty_two_bit_unsigned: u32 = 4_294_967_295;
-    println!("int32 unsigned: {}", thirty_two_bit_unsigned);
+    println!("int32 unsigned (hex): {:x}", thirty_two_bit_unsigned);
     
     let sixty_four_bit_signed: i64 = -9_223_372_036_854_775_808;
     println!("int64 signed: {}", sixty_four_bit_signed);
