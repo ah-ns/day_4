@@ -47,7 +47,7 @@ fn main() {
 
     let tuple: (i32, bool, char) = (23, false, 'A');
     let (a, b, c) = tuple;
-    println!("tuple: {0}, {1}, {2}", a, tuple.1, c);
+    println!("tuple: {0}, {1}, {2}, {3}", a, tuple.1, b, c);
 
 
     let list: [i32; 5] = [0; 5];
